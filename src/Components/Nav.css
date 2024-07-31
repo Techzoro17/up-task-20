@@ -1,0 +1,14 @@
+.nav-h{
+    height: 10vh;
+}
+.main-h{
+    height: 85vh;
+}
+.nav-icon {
+    padding: 10px;
+}
+.nav-icon li:hover{
+    height: 100%;
+    color: white;
+    border-radius: 10px;
+}
