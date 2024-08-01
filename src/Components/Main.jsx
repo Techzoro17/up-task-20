@@ -88,12 +88,13 @@ const Main = () => {
             {item.map((itemm)=>(
             <div key={itemm.link} className='bg-white m-1 w-max p-4 rounded-xl'>
                     <h2 className='font-bold text-xl'>{itemm.name}</h2>
-                    <img src={`..//Image/${itemm.link}.jpg`} alt={itemm.name} className='size-44 rounded-xl' />
+                    <img src={require(`../Image/${itemm.link}.jpg`)} alt={itemm.name} className='size-44 rounded-xl' />
                     <p className='text-sm font-semibold'>Price:${itemm.price}</p>
                     <button className='bg-green-800 text-white px-2 py-1 rounded-lg' onClick={()=>Addcart(itemm)}>Add Cart</button>
             </div>
 
             ))}
+            
 
         </div>
 
